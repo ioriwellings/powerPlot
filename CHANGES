@@ -1,0 +1,132 @@
+1.4.3
+11/02/2012
+Minor update to fully support iOS v6.0.
+
+
+1.4.2
+08/05/2012
+Minor update of the following components:
+* Minor beautification of code documentation.
+* Fixed an issue with the description method of WSData.
+* Included bug fix from Andrew Korepanov regarding pinching handler.
+* Added an example for interactive graphs that identifies the nodes
+  the user has tapped on.
+
+
+1.4.1
+05/30/2012
+Prepared and distributed an ARC-ready file as part of the PowerPlot
+commercial distribution.
+
+
+1.4.1
+04/10/2012
+Added instructions for ARC support via email. (Commercial mailing list
+only.)
+
+
+1.4.1
+04/10/2012
+Update focused on optimization and bug fixes:
+* Performance optimization in WSDatum, interface unchanged.
+* Further performance optimizations in drawing code, in particular
+  UILabel handling.
+* Proper support for localizations in demo app (although English is
+  still the primary language).
+* Minor refactoring to silence pedantic compiler warnings (if enabled
+  beyond the standard settings).
+* Slightly expanded versioning mechanism.
+* Minor bug fixes to demo code, fixed a bug with chart titles and
+  subtitles.
+* Added a "labelOffset" property to WSAxisProperties to allow more
+  control over axis label positioning.
+* Added a method "autoNiceTicksWithRange:number:" which allows a
+  visually nicer placement of tick labels on an axis.
+
+
+1.4.0
+02/01/2012
+
+Major refactoring and rewrite of user interface, new example codes
+that demonstrate new functionality, several bug fixes:
+* Added default gesture recognizers with support for zooming,
+  scrolling and selecting. Added demo codes for the new functionality.
+* Added alerting/highlighting feature.
+* Added alternate 'dateTime' accessor for 'valueX' property to
+  WSDatum.
+* Added axisLocation properties to WSPlotController. These replace the
+  previous properties in several subclasses of WSPlot, resulting in a
+  complete refactoring of axis positioning in PowerPlot.
+* Added point location method to WSDataOperations.
+* Added a UIID to versioning and identification mechanism.
+* Changed the "smoothstep" function used in animations.
+* Refactored and modularized the style property handling of
+  customizable data.
+* Refactored protocols for data and coordinates.
+* Refactored interfaces of factory methods, improved and unified
+  naming conventions, changed interface of several method names in
+  WSData. Formatting/beautifying documentation.
+* Refactoring for better modularization and separation of concerns,
+  resulting in a cleaner interface.
+* Refactored coding conventions and demo app code organization.
+* Data bindings now also work when the entire dataD object is changed
+  in a WSPlotController.
+* Fixed a memory bug involving multiple bar plots.
+* Fixed a bug related to autoscaling when the data is
+  degenerate/constant.
+
+
+1.3.0
+10/15/2011
+
+Several functional enhancements, further bug fixes, and new example
+codes:
+* Added a custom data slot in WSChart.
+* Added data bindings which perform automatic chart updates when the
+  underlying data model is updated.
+* Added powerful animations for charts (Objective-C 2.0+ and iOS 
+  4.0+ only).
+* Fixed an issue handling the (de-)coding of fonts in data model
+  classes.
+* Bug fix regarding an incorrect handling of NAN.
+* Updated sample codes, added several examples of data bindings and
+  animations.
+
+
+1.2.2
+08/07/2011
+
+Added category WSDataOperations for functional-style modifications to
+WSData objects (Objective-C 2.0+ and iOS 4.0+ only). Added Bezier
+interpolation to WSPlotData. Added curve shadow option and
+configuration to WSPlotData. Fixed a memory bug in WSData and
+WSDatum. Added a multi-line demo to the demo app, together with an
+extended demo on the new WSDataOperations.
+
+
+1.2.1
+07/26/2011
+
+Fixed an issue with the title and subtitle labels and corresponding
+texts.
+
+
+1.2.0
+07/25/2011
+
+Maintenance update, minor changes to the interface. Feedback from
+users about known bugs has led to a couple of bug fixes.
+
+
+1.1.0
+06/30/2011
+
+Maintenance update, functionality unchanged. A couple of bugs have
+been fixed.
+
+
+1.0.0
+12/01/2010
+
+First public release.
+

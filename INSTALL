@@ -1,0 +1,18 @@
+PowerPlot demo app - How to use
+===============================
+
+The PowerPlot demo app contains practical examples of how to use
+PowerPlot. The example code is also discussed in more detail on
+http://powerplot.nua-schroers.de
+
+This demo app is published under the GPLv3 and features the
+GPLv3-version of PowerPlot which is included. For the commercial
+version which does not force you to redistribute derivative works of
+this library please contact us directly by email.
+
+To see the app in action just open the PowerPlot.xcodeproj file in
+XCode and build the code either for your device or the simulator.
+
+
+Written 2010-2012 by Dr. W. Schroers, NuAS http://nua-schroers.de
+Published under the GPLv3, see file <gpl-3.0.txt>

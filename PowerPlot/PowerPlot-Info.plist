@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>PowerPlot Demo</string>
+	<key>CFBundleExecutable</key>
+	<string>PowerPlot</string>
+	<key>CFBundleIconFile</key>
+	<string>NuAS-logo.png</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>NuAS-logo.png</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>PowerPlot</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PowerPlot</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.4.3</string>
+	<key>CFBundleSignature</key>
+	<string>NUAS</string>
+	<key>CFBundleVersion</key>
+	<string>1.4.3</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
+</dict>
+</plist>
